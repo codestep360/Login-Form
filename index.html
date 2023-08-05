@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-From</title>
+    <!----style. CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!----- google icons----->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-----google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-------hearder--------->
+    <header class="header">
+        <nav class="nav">
+            <a href="" id="nav_logo">Livesa</a>
+            <ul class="nav_items">
+                <li class="nav_items">
+                    <a href="" class="nav_link" onclick="onClick()">Home</a>
+                    <a href="" class="nav_link" onclick="onClick()">Product</a>
+                    <a href="" class="nav_link" onclick="onClick()">Service</a>
+                    <a href="" class="nav_link" onclick="onClick()">Contact</a>
+                </li>
+            </ul>
+            <button class="button" onclick="click()">login</button>
+        </nav>
+    </header>
+
+    <!-------------form------------->
+
+    <section>
+        <div class="wrapper">
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+
+                        <input type="email" name="" id="" placeholder="Email" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+
+                        <input type="password" name="" id="" placeholder="password" required />
+                    </div>
+                    <div class="remember-forgot">
+                        <label for=""><input type="checkbox" />remember Me</label>
+                        <a href="">Forgot password</a>
+                    </div>
+                    <button class="btn" type="submit">Login</button>
+                    <div class="login-register">
+                        <p>
+                            Don't have an account?
+                            <a href="" class="register-link">register</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+
+                        <input type="text" name="" id="" placeholder="UserName" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+
+                        <input type="email" name="" id="" placeholder="Email" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+
+                        <input type="password" name="" id="" placeholder="password" required />
+                    </div>
+                    <div class="remember-forgot">
+                        <label for=""><input type="checkbox" />I agree to the term &
+                            Conditions</label>
+                    </div>
+                    <button class="btn" type="submit">Register</button>
+                    <div class="login-register">
+                        <p>
+                            Already have a account
+                            <a href="" class="login-link">Login</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
